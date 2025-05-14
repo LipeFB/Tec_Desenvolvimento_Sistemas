@@ -1,0 +1,22 @@
+Controladores:
+
+
+Estruturas de controle Condicionais
+- If = Condicao verdadeira
+- If ... Else = Condicao verdadeira e falsa
+- Else If = Multiplas verificacoes condicionais em sequencia
+
+
+Estruturas de Repeticao
+- While = Executa o bloco enquanto a condicao for verdadeira
+- For = Laco com controle de inicio, condicao e incremento
+
+
+Template String e Switch
+- Template String = Permite interpolar variaveis em strings com crase
+- Switch = Estrutura para multiplas condicoes baseadas em um valor
+
+
+Break e Continue
+- Interrompe um laco ou switch quando necessario
+- Pula a iteracao atual e continua o laco
