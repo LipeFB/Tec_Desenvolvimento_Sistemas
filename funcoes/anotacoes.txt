@@ -1,0 +1,7 @@
+FUNCOES
+
+Funcao X Algoritmo
+
+Funcao: Da nome ao bloco de codigo e os reutiliza.
+
+Algoritmo: Execucao de pequenos programas, linhas ou codigos.
