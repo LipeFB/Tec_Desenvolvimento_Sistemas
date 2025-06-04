@@ -1,0 +1,38 @@
+Array
+Estrutura de dados que armazena uma colecao de elementos(valores), acessiveis por indices numericos.
+Em JSON, arrays sao Objetos especiais com metodos e propriedades especificas.
+
+Ex:
+
+const frutas = ['Maca', 'Banana', 'Uva'];
+console.log(frutas[0]); Maca
+
+frutas[3] = 'Abacaxi'; adiciona na possicao 3
+
+var notas = [9.7, 8.9, 6.5, 7.2].
+
+->legnth:
+representa a quantidade de elementos no array.
+Muito util em loops e validacoes.
+Ex:
+
+console.log(frutas.lenght); 4
+
+for( let i = 0; frutas.Lenght; i++) {
+  console.log(frutas[])
+}
+
+
+Metodos importantes:
+push()  -> Adiciona elementos no final
+pop()   -> Remove o ultimo elementos
+splice() -> Remove ou substitui elementos
+concat() - > Concatena dois arrays
+includes() -> Verifica se um valor esta presente
+indexOf() -> Retorna o indice de um valor
+join() -> Junta elementos de uma strings
+forEach() -> Itera sobre os elementos.
+
+
+For...of -> retorna os valores do array
+For...in -> retorna os indices do array

@@ -22,16 +22,10 @@
 
 /* Imprimir na tela a nota */
 
-let notaFelipe = 2;
-let notaNathan = 2;
+let notaFelipe = 10;
 
-let media = function contarNotas (notaFelipe, notaNathan) {
-  return (notaFelipe + notaNathan) / 2
-}
-
-
-function validacaoNota (media) {
-  switch (media){
+function validacaoNota (nota) {
+  switch (nota){
     case 10:
       return "A+";
     case 9:
@@ -59,4 +53,4 @@ function validacaoNota (media) {
   }
 }
 
-console.log();
+  console.log(validacaoNota(notaFelipe));
