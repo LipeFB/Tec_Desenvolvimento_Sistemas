@@ -1,0 +1,56 @@
+
+
+-> Um objeto e uma estrutura que armazena dados em pares chave/valor (propriedade:valor). Ele representa entidades do mundo real, como aluno, produto, carro, etc.
+
+ex:
+
+const aluno = {
+  nome: "Felipe",
+  idade: 17,
+  curso: "Desenvolvimento de Sistemas"
+};
+
+*Acessar propriedades:
+
+console.log(aluno.nome);
+console.log(aluno["idade"]);
+
+
+*Adicionar propriedades:
+
+aluno.matricula = "2025A";
+aluno.idade = 18;
+
+
+*Removendo propriedades:
+
+delete aluno.curso;
+
+
+->Objetos com metodos.
+
+Objetos podem conter funcoes internas, camadas de metodos.
+
+const carro = {
+  modelo: "Civic",
+  ano: 2020,
+  ligar: funcion () {
+    console.log("Carro ligado!);
+  }
+};
+
+carro.ligar();
+
+
+
+-> Objetos em arrays:
+
+Pode ter um array de objetos, ideal para representar varias entidades:
+
+const produtos = [
+  { nome: "Notebook", preco: 3500 },
+  { nome: "Mouse", preco: 80 },
+  { nome: "Teclado", preco: 150 }
+];
+
+console.log(produtos[1].nome);  // Mouse
